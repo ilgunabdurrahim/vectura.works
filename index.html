@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vectura Works</title>
+<meta name="description" content="Vectura Works — Parsecs ve Time Nomad oyunlarının bağımsız stüdyosu. Independent studio behind Parsecs and Time Nomad.">
+<meta name="theme-color" content="#0b0f16">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root { --bg:#0b0f16; --card:#141a24; --line:#232c3a; --text:#efe6d2; --muted:#a39a88; --gold:#e3a83a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 16px 40px; }
+  .logo { display:block; width:240px; max-width:70%; height:auto; image-rendering:pixelated; }
+  .lead { color:var(--muted); margin:18px 0 40px; }
+  .lead span { display:block; }
+  .games { display:grid; gap:16px; }
+  .game { display:flex; gap:18px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; }
+  .game img { width:84px; height:84px; border-radius:20px; flex:none; }
+  h2 { margin:0 0 4px; font-size:20px; }
+  .game p { margin:0 0 10px; color:var(--muted); font-size:15px; }
+  .links { display:flex; flex-wrap:wrap; gap:8px 16px; font-size:15px; }
+  a { color:var(--gold); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  footer { margin-top:44px; color:var(--muted); font-size:14px; }
+  @media (max-width:480px) { .game img { width:64px; height:64px; border-radius:16px; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="/assets/vectura.png" width="360" height="120" alt="Vectura Works">
+  <p class="lead">
+    <span>Küçük, bağımsız bir oyun stüdyosu.</span>
+    <span lang="en">A small independent game studio.</span>
+  </p>
+
+  <section class="games">
+    <article class="game">
+      <img src="/assets/time-nomad.png" width="256" height="256" alt="">
+      <div>
+        <h2>Time Nomad</h2>
+        <p>30 çağ, 1500 kat: zamanın izinde yüksel. · <span lang="en">Climb through 30 eras of time.</span></p>
+        <div class="links">
+          <a href="https://apps.apple.com/app/id6824396277">App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.timenomad.game">Google Play</a>
+          <a href="https://ilgunabdurrahim.github.io/time-nomad/">Web</a>
+          <a href="https://ilgunabdurrahim.github.io/time-nomad/privacy.html">Gizlilik / Privacy</a>
+        </div>
+      </div>
+    </article>
+    <article class="game">
+      <img src="/assets/parsecs.png" width="256" height="256" alt="">
+      <div>
+        <h2>Parsecs</h2>
+        <p>Derin uzayda sıra tabanlı strateji. · <span lang="en">Turn-based space strategy.</span></p>
+        <div class="links">
+          <a href="https://apps.apple.com/app/id6821830937">App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.parsecs.oyun">Google Play</a>
+          <a href="https://ilgunabdurrahim.github.io/parsecs-gizlilik/">Gizlilik / Privacy</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    İletişim / Contact: <a href="mailto:ilgun.abdurrahim@gmail.com">ilgun.abdurrahim@gmail.com</a><br>
+    © 2026 Vectura Works
+  </footer>
+</main>
+</body>
+</html>
